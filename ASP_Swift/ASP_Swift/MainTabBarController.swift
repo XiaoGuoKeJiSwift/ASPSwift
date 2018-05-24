@@ -1,5 +1,5 @@
 //
-//  RenMaiQuanViewController.swift
+//  MainTabBarController.swift
 //  ASP_Swift
 //
 //  Created by 赵兵 on 2018/5/23.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RenMaiQuanViewController: UIViewController {
+class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +21,7 @@ class RenMaiQuanViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: animated)
-    }
+
     /*
     // MARK: - Navigation
 
